@@ -5,10 +5,13 @@ This is my fork of the repo that contains the changes I made as I was going thro
 
 Notes
 -----
-To make my docs I run::
-    sphinx-apidoc --force --separate --no-toc -o source/ ../src/crawler/
-    make clean
-    make html
+To make my docs I run
+
+``sphinx-apidoc --force --separate --no-toc -o source/ ../src/crawler/``
+
+``make clean``
+
+``make html``
 
 in ``crawler/andy_docs``
 
@@ -17,8 +20,11 @@ I added ``crawler/andy_docs`` to the ``exclude_patterns`` in ``conf.py`` to stop
 Useful Resources
 ----------------
 http://sphinx-argparse.readthedocs.io/en/latest/index.html - for generating cli docs
+
 http://autoapi.readthedocs.io/ - for prettier API documentation
+
 https://kev.inburke.com/kevin/sphinx-interlinks/ - Creating links within your docs
+
 https://gisellezeno.com/tutorials/sphinx-for-python-documentation.html - Brief intro to running Sphinx
 
 
